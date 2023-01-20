@@ -24,16 +24,15 @@ loginbtn.addEventListener("submit", (evt) => {
         window.location.replace("./pages/pages.html");
       }
     })
-    .catch((err) => console.log(err)); {
-      alert("Password or email error");
-    }
+    .catch((err) => console.log(err));
+  {
+    alert("Password or email error");
+  }
 });
 
-let forbtn=document.querySelector('.for');
+let forbtn = document.querySelector(".for");
 
-forbtn.addEventListener('click', (evt)=>{
+forbtn.addEventListener("click", (evt) => {
   evt.preventDefault();
   alert("Sizning emailingiz: eve.holt@reqres.in  ");
 });
-
-

@@ -51,7 +51,7 @@ body {
 .container .navbar .btn {
   border: 2px solid blue;
   border-radius: 6px;
-  background-color: #0D75FF;
+  background-color: #0d75ff;
   color: wheat;
   font-size: 18px;
   width: 100px;
@@ -130,8 +130,8 @@ body {
 }
 .container .pages .card-book .button3 {
   border-radius: 6px;
-  border: 2px solid #75828A;
-  background-color: #75828A;
+  border: 2px solid #75828a;
+  background-color: #75828a;
   color: wheat;
   width: 230px;
   height: 30px;

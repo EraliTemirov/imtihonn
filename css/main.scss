@@ -4,7 +4,6 @@ body {
   box-sizing: border-box;
   font-family: sans-serif;
   list-style: none;
-  
 }
 .container {
   width: 1340px;
@@ -51,7 +50,7 @@ body {
     .btn {
       border: 2px solid blue;
       border-radius: 6px;
-      background-color: #0D75FF;
+      background-color: #0d75ff;
       color: wheat;
       font-size: 18px;
       width: 100px;
@@ -89,7 +88,7 @@ body {
       }
     }
   }
-  
+
   .pages {
     display: grid;
     width: 950px;
@@ -135,8 +134,8 @@ body {
       }
       .button3 {
         border-radius: 6px;
-        border: 2px solid #75828A;
-        background-color: #75828A;
+        border: 2px solid #75828a;
+        background-color: #75828a;
         color: wheat;
         width: 230px;
         height: 30px;
