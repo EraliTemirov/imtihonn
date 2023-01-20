@@ -1,0 +1,93 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url("../img/javon.jpg");
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+.container .icon .user {
+  position: absolute;
+  transform: translate(160px, 270px);
+  z-index: 1111;
+}
+.container .icon .qulf {
+  position: absolute;
+  transform: translate(160px, 335px);
+  z-index: 1111;
+}
+.container .logo {
+  width: 50%;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+.container .input {
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.container .input .border {
+  border-radius: 10px;
+  width: 63%;
+  border: 4px solid black;
+}
+.container .input .border .email-input {
+  margin-left: 40px;
+  display: block;
+  width: 65%;
+  height: 40px;
+  font-size: 1.6em;
+  color: wheat;
+  border: 0.1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+.container .input .border .email-input:focus {
+  outline: none;
+}
+.container .input .border-ikki {
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 63%;
+  border: 4px solid black;
+}
+.container .input .border-ikki .pass-input {
+  margin-left: 40px;
+  display: block;
+  width: 65%;
+  height: 40px;
+  font-size: 1.6em;
+  color: wheat;
+  border: 0.1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+}
+.container .input .border-ikki .pass-input:focus {
+  outline: none;
+}
+.container .input .btn {
+  display: block;
+  margin-top: 0.5em;
+  width: 66.2%;
+  height: 40px;
+  font-size: 1.6em;
+  background-color: rgba(255, 255, 255, 0.67);
+  color: blue;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+.container .input .forgot {
+  font-size: 20px;
+  width: 400px;
+  height: 40px;
+  color: white;
+  margin-left: 240px;
+}
+
+.for {
+  position: absolute;
+  opacity: 0;
+  width: 200px;
+  transform: translate(370px, -20px);
+}/*# sourceMappingURL=login.css.map */

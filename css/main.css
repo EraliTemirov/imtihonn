@@ -1,0 +1,176 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+.container .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-around;
+  gap: 45px;
+  z-index: 9999;
+  background-color: white;
+}
+.container .navbar .qidiruv {
+  position: absolute;
+  transform: translate(2px, 5px);
+}
+.container .navbar .border {
+  width: 640px;
+  color: rgb(149, 169, 235);
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.container .navbar .logo {
+  width: 280px;
+}
+.container .navbar .div-search .sun {
+  position: absolute;
+  transform: translate(720px, -35px);
+}
+.container .navbar .div-search .search {
+  font-size: 25px;
+  margin-left: 40px;
+  border: 0px solid white;
+  width: 600px;
+  height: 40px;
+}
+.container .navbar .div-search .search:focus {
+  outline: none;
+}
+.container .navbar .btn {
+  border: 2px solid blue;
+  border-radius: 6px;
+  background-color: #0D75FF;
+  color: wheat;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+}
+.container .section {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .section .bookmark {
+  width: 300px;
+  height: 100vh;
+  text-align: start;
+}
+.container .section .bookmark h2 {
+  font-size: 32px;
+}
+.container .section .bookmark p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.container .section .bookmark .birinchi {
+  margin-top: -1px;
+  width: 200px;
+  font-size: 16px;
+  color: rgb(0, 0, 83);
+}
+.container .section .bookmark .ikkinchi {
+  margin-top: -8px;
+  width: 150px;
+  font-size: 18px;
+  color: rgb(111, 111, 2);
+}
+.container .pages {
+  display: grid;
+  width: 950px;
+  height: 100vh;
+  gap: 20px;
+  grid-template-columns: repeat(3, 280px);
+  grid-template-rows: repeat(2, 500px);
+}
+.container .pages .card-book .img {
+  width: 70%;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+.container .pages .card-book h3 {
+  text-align: start;
+}
+.container .pages .card-book p {
+  text-align: start;
+  font-size: 16px;
+  color: aqua;
+}
+.container .pages .card-book .btn-book {
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .pages .card-book .btn-book .button1 {
+  border: 1px solid rgb(222, 222, 0);
+  border-radius: 8px;
+  background-color: rgb(222, 222, 0);
+  margin: 0;
+  width: 110px;
+  height: 30px;
+}
+.container .pages .card-book .btn-book .button2 {
+  border-radius: 10px;
+  border: 1px solid red;
+  margin: 0;
+  width: 110px;
+  height: 30px;
+}
+.container .pages .card-book .button3 {
+  border-radius: 6px;
+  border: 2px solid #75828A;
+  background-color: #75828A;
+  color: wheat;
+  width: 230px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.next {
+  position: absolute;
+  transform: translate(600px, 350px);
+  margin-bottom: 40px;
+}
+.next button {
+  width: 40px;
+  height: 30px;
+}
+
+.modal {
+  display: none;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate(1000px, -720px);
+  width: 500px;
+  height: 150vh;
+  z-index: 50;
+}
+.modal .rasm {
+  width: 80%;
+  margin-left: 20px;
+}
+.modal .gap {
+  background-color: white;
+}
+.modal .avtor {
+  background-color: white;
+}
+.modal .btnn {
+  width: 120px;
+  height: 30px;
+  margin-left: 380px;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */
