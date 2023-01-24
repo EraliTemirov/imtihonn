@@ -22,12 +22,14 @@ loginbtn.addEventListener("submit", (evt) => {
       if (data.token) {
         localStorage.setItem("token", data.token);
         window.location.replace("./pages/pages.html");
-      }
+      } else {
+        alert("Password or email error");
+      } 
     })
     .catch((err) => console.log(err));
   {
-    alert("Password or email error");
-  }
+    
+    }
 });
 
 let forbtn = document.querySelector(".for");
